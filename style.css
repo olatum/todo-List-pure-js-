@@ -1,0 +1,43 @@
+div {
+    margin-top:30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 50px;
+    border:none;
+    padding: 12px 24px;
+    margin:5px;
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#add-btn {
+    background-color: #5CB0C8;
+}
+
+#rm-btn {
+    background-color: #80CAD7;
+}
+
+#clear-btn {
+    background-color: #B9D3DB;
+}
+
+button:hover {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+li{
+    color:#5CB0C8;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
