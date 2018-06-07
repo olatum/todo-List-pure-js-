@@ -11,7 +11,7 @@ let counter = 1
 
 function todoList() {
     const newItem = document.createElement('li')
-    let textnode = document.createTextNode("zadanie " + counter++)
+    let textnode = document.createTextNode("task number " + counter++)
     newItem.appendChild(textnode)
     document.getElementById('todoList').appendChild(newItem)
 }
